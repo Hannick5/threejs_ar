@@ -1,29 +1,27 @@
-# three_vite
-Basic THREE.js template using [Vite](https://vitejs.dev).
+# Jeu de dominos en RA (Réalité Augmentée) avec Three.js
 
-Allows testing and modifying [official THREE.js examples](https://threejs.org/examples/) locally, at lightning speed.
-After trying Parcel and Rollup, this is probably the most developer-friendly to start THREE.js development in 2023 : it's insanely fast, it supports live reload out of the box, while remaining simple to use and to extend.
-
-## Batteries included
-
-Pre-configured to support :
-
-- glTF file loading
-- ammo.js wasm physics library
-- VSCode launch scripts
-- THREE.js type definitions : for IntelliSense in VS Code
-
-Have a look at vite.config.js and customize it to your needs (additional libraries, file formats etc.).
+Ce jeu de dominos en RA utilise WebXR et Three.js pour créer une expérience immersive.
 
 ## Installation
 
-Install [Node.js](https://nodejs.org)
+Pour commencer, assurez-vous d'avoir [Node.js](https://nodejs.org) installé sur votre système.
 
-- Clone or download repo
-- run `npm install` : fetches and install all dependencies
-- `npm run build` : packages all code and resources into the `dist` folder
-- `npm run dev` : launches a server and opens your browser in `https://localhost:5173` by default
-- Edit your code : your changes are reflected instantly!
+### Étapes d'installation :
+
+1. Clonez ou téléchargez le dépôt du jeu.
+2. Ouvrez un terminal ou une invite de commande dans le dossier du jeu.
+3. Exécutez la commande `npm install` : Cela téléchargera et installera toutes les dépendances nécessaires au jeu.
+4. Pour lancer le jeu, utilisez la commande `npm run dev` : Cela lancera un serveur local et ouvrira automatiquement votre navigateur à l'adresse `https://localhost:5173` par défaut.
+
+### Comment jouer :
+
+Une fois que le jeu est lancé dans votre navigateur, utilisez les contrôles pour interagir avec les dominos en réalité augmentée. Vous pouvez placer les dominos sur la table virtuelle en utilisant des gestes ou des commandes spécifiques, selon les instructions du jeu.
+
+Amusez-vous bien et profitez de cette expérience de jeu unique en réalité augmentée!
+
+### Remarque :
+
+Assurez-vous d'avoir un casque de réalité augmentée compatible pour profiter pleinement de cette expérience.
 
 
 
